@@ -7,16 +7,6 @@
         {
             "ports": [
                 {
-                    "input": "raw_data",
-                    "type": "csv"
-                }
-            ],
-            "source": "raw_data.csv",
-            "target": "clean.R"
-        },
-        {
-            "ports": [
-                {
                     "output": "clean_data",
                     "type": "csv"
                 }
@@ -27,9 +17,6 @@
     ],
     "nodes": [
         {
-            "name": "raw_data.csv"
-        },
-        {
             "assigned_to": "spachika",
             "name": "clean.R",
             "task_status": "in progress"
@@ -38,6 +25,6 @@
             "name": "data.csv"
         }
     ],
-    "updated_at": "2018-10-31 06:25:58",
+    "updated_at": "2018-11-01 01:47:24",
     "url": "https://github.com/fall2018-saltz/spachika_vizualisation"
 }
